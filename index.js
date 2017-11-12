@@ -1,1 +1,8 @@
-// Write your code in this file!
+// define paremeters. Then need two different responses. 
+
+
+Function scuberGreetingForFeet(string) {
+ if (string>= 0 && string <=400) {
+ return  "This one is on me!"
+ }
+}

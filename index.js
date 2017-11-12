@@ -1,4 +1,4 @@
-// define paremeters. Then need two different responses.
+// ternaryCheckCity()  "Ok, sounds good." when the city is NYC should return "No go." if the destination city is not NYC
 
 function scuberGreetingForFeet(string) {
  if (string<=400) {
@@ -8,4 +8,12 @@ function scuberGreetingForFeet(string) {
  } else if (string>2500) {
    return 'No can do.';
  }
+}
+
+function ternaryCheckCity(city) {
+  if (city=== 'NYC') {
+    return "Ok, sounds good.";
+  } else {
+    return "No go.";
+  }
 }

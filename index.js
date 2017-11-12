@@ -1,4 +1,3 @@
-// switchOnCharmFromTip() "Thank you so much." if the tip is generous  "Thank you." if the tip is not as generous "Bye." if anything else
 
 function scuberGreetingForFeet(string) {
  if (string<=400) {
@@ -23,7 +22,7 @@ function switchOnCharmFromTip(tip) {
     return "Thank you so much.";
   } else if (tip==='not as generous'){
     return "Thank you.";
-  } else { 
+  } else {
     return "Bye.";
   }
 }

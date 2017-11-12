@@ -1,4 +1,4 @@
-// ternaryCheckCity()  "Ok, sounds good." when the city is NYC should return "No go." if the destination city is not NYC
+// switchOnCharmFromTip() "Thank you so much." if the tip is generous  "Thank you." if the tip is not as generous "Bye." if anything else
 
 function scuberGreetingForFeet(string) {
  if (string<=400) {
@@ -15,5 +15,15 @@ function ternaryCheckCity(city) {
     return "Ok, sounds good.";
   } else {
     return "No go.";
+  }
+}
+
+function switchOnCharmFromTip(tip) {
+  if (tip==='generous'){
+    return "Thank you so much."; 
+  } else if (tip==='not as generous'){
+    return "Thank you.";
+  } else {"Bye.";
+    return 
   }
 }

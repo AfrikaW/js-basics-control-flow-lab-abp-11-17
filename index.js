@@ -2,7 +2,7 @@
 const scuberGreetingForFeet
 
 Function scuberGreetingForFeet(string) {
- if (string>= 0 && string <=400) {
+ if (string <=400) {
  return  "This one is on me!"
  }
 }
